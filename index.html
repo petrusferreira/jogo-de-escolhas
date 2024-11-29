@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+ <html lang="en">
+  <head>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+     <link rel="stylesheet" type="text/css" href="style.css">
+      <meta charset="utf-8" />
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?        family=Doto:wght@100..900&family=Faculty+Glyphic&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<main>
+<div class="passo ativo" id="passo-0">
+<img src="logo.png">
+<p>
+Era uma manhã ensolarada na pequena cidade de Maplewood, localizada em um canto pitoresco dos Estados Unidos. Sayal, uma jovem de 14 anos com cabelos negros e olhos brilhantes como estrelas, estava animada para explorar a famosa Floresta de Willow Creek com seus amigos. Jasmin, com seus cabelos ruivos e um sorriso encantador, sempre teve uma personalidade aventureira. Peter, um garoto alto e atlético, tinha uma paixão por história e adorava contar lendas locais. Kinberlin, a mais sonhadora do grupo, tinha longos cabelos loiros e sempre carregava um caderno onde anotava seus pensamentos e desenhos.
+
+O grupo decidiu se aventurar em um bosque que, à primeira vista, era um lugar mágico, cheio de árvores imensas, flores coloridas e pássaros cantando. Entretanto, à medida que se afastavam da clareira inicial, uma sombra começou a se espalhar, e as árvores pareciam se fechar ao redor deles, transformando o cenário encantador em um ambiente cada vez mais sombrio.
+</p>
+        
+<button class="proximo" data-proximo="1">  Continuar pela trilha principal, mesmo com o ambiente mudando.     </button>
+<button class="proximo" data-proximo="1">Desviar para um caminho menos visível que parece mais seguro.
+</button>
+</div>
+<div class="passo" id="passo-1">
+<img src="logo.png">
+<p>
+Decidindo seguir pela trilha principal, Sayal e seus amigos avançaram. O ar ficou mais denso e o canto dos pássaros cessou, dando lugar a um silêncio inquietante. Depois de algum tempo, chegaram a um lugar onde a floresta parecia completamente transformada, com árvores retorcidas e uma névoa escura envolvendo tudo.
+</p>
+<button class="proximo" data-proximo="3">
+Botão 3: Investigar uma luz estranha que brilha entre as árvores.
+</button>
+<button class="proximo" data-proximo"4"> 
+Botão 4: Recuar e voltar pela trilha de onde vieram.
+</button>
+  
+  <div class="passo" id="passo-2">
+    <img src="logo.png">
+    <p>
+      Optando por desviar para o caminho menos visível, o grupo acreditou que seria mais seguro. Contudo, logo perceberam que a trilha se tornava cada vez mais estreita e estranha. O ambiente parecia estar se tornando mais opressivo, e uma sensação de que estavam sendo observados começou a se instalar.
+    </p>
+    
+  <button class="proximo" data-proximo="5">
+    Botão 5: Continuar explorando o novo caminho.
+
+    </button>
+    
+    <button class="proximo" data-proximo="6">
+       Botão 6: Parar e discutir se deveriam voltar.
+    </button>
+  </div>
+  
+   <div class="passo" id="passo-3">
+    <img src="logo.png">
+    <p>
+Decidindo investigar a luz estranha, eles avançaram cautelosamente. Ao chegarem mais perto, viram uma pequena fogueira em uma clareira, mas não havia sinal de quem a acendia. De repente, uma sombra se projetou, revelando uma criatura grotesca com olhos vermelhos brilhantes e garras afiadas.
+    </p>
+    
+  <button class="proximo" data-proximo="9">
+    Tentar acalmar a criatura e perguntar o que ela quer. Botão 
+    </button>
+    
+    <button class="proximo" data-proximo="10">
+      10: Fugir imediatamente e buscar abrigo.
+
+    </button>
+  </div>
+  
+  <div class="passo" id="passo-4">
+    <img src="ganhou.png">
+    <p>
+      Se o grupo tivesse recuado, teria encontrado um caminho que os levaria de volta à clareira original, onde a luz do sol ainda brilhava e onde poderiam se reunir com outros grupos de visitantes da floresta. Assim, eles teriam escapado do terror que estava prestes a acontecer.
+    </p>
+    
+  <button class="proximo" data-proximo="0">
+    reiniciar?
+    </button>
+  </div>
+  
+  <div class="passo" id="passo-5">
+    <img src="logo.png">
+    <p>
+      Com coragem, decidiram continuar explorando o novo caminho. O ar estava pesado e o som de galhos quebrando os fez parar. Olhando em volta, perceberam que a floresta estava se tornando cada vez mais hostil, e sombras pareciam se mover entre as árvores.
+
+    </p>
+    
+  <button class="proximo" data-proximo="7">
+    Botão 7: Encontrar uma caverna próxima e se esconder.
+    </button>
+    
+    <button class="proximo" data-proximo="8">
+    </button>
+  </div>
+  
+  <div class="passo" id="passo-6">
+    <img src="perdeu.png">
+    <p>
+    </p>
+    
+    <button class="proximo" data-proximo="0">
+      reiniciar?
+    </button>
+  </div>
+  
+  <div class="passo" id="passo-7">
+    <img src="ganhou.png">
+    <p>
+    </p>
+ 
+    <button class="proximo" data-proximo="0">
+      reiniciar?
+    </button>
+  </div>
+  
+  <div class="passo" id="passo-8">
+    <img src="logo.png">
+    <p>
+    </p>
+    
+  <button class="proximo" data-proximo="3">
+    
+    </button>
+    
+    <button class="proximo" data-proximo="4">
+    </button>
+  </div>
+  
+  <div class="passo" id="passo-9">
+    <img src="ganhou.png">
+    <p>
+    </p>
+    
+  <button class="proximo" data-proximo="0">
+    reiniciar?
+    </button>
+  </div>
+  
+  <div class="passo" id="passo-10">
+    <img src="perdeu.png">
+    <p>
+    </p>
+    
+  <button class="proximo" data-proximo="0">
+    reiniciar?
+    </button>
+  </div>
+  
+</main>
+<script src="sketch.js"></script>
+<footer> 
+<p> desenvolvido por 
+<ahref="https://github.com/petrusferreira"> petrus </a> </p> </footer>
+</body>
+</html>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

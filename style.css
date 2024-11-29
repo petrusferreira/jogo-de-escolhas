@@ -1,0 +1,135 @@
+html, body {
+font-family: "Faculty Glyphic", sans-serif;
+ background-color: #FFEB3B;
+  color: white;
+   display: flex;
+    flex-direction: column;
+     align-items: center;
+      margin: 0;
+       font-size: 35px;
+        background-image: url("fundo.png");
+         background-size: cover;
+          background-repeat: no-repeat;
+           background-position: center;
+            background-attachment: fixed;
+             text-align: center;
+              text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer{
+font-family: "Doto", sans-serif;
+ text-decoration: none;
+  font-size: 25px;
+   font-weigth: 400;
+}
+
+footer a{
+text-decoration: none;
+ color: white;
+}
+
+footer a:hover{
+color:rgb(255, 0, 45)
+ font-weight: 800;   
+}
+
+button{
+font-family: "Oswald", sans-serif;
+ background-color: rgb(0,0,0);
+  border: 2px solid rgb(255,255,255);
+   color: white;
+    font-size: 25px;
+     border-radius: 200px;
+      margin: 20px;
+       padding: 5px;
+}
+
+button:hover{
+backround-color: rgb(248,248,134);
+ border: 2px solid rgb(255,255,255);
+  box-shadow 5px 4px 4px rgb(47, 47, 47);
+   font-weight: 800;
+    color:rgb(255,255,255);
+}
+
+main{
+max-width: 90%;
+ text-align: center;
+  flex:1;
+}
+
+img{
+max-width: 90%;
+}
+
+.passo{
+display: none;
+}
+
+.passo.ativo{
+display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
